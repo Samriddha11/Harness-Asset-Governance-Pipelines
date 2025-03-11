@@ -7,7 +7,7 @@ policies:
       - Attachments: []
     actions:
       - type: webhook
-        url: <https://app.harness.io/gateway/pipeline/api/webhook/custom/0Xz5Q6UeQZS2JiAO89EiDA/v3?accountIdentifier=SxuV0ChbRqWGSYClFlMQMQ&orgIdentifier=default&projectIdentifier=default_project&pipelineIdentifier=deleteebsvolumes&triggerIdentifier=deleteebstrigger>
+        url: <WebHook-Trigger-URL-Here>
         batch: true
         body: resources
         headers:
